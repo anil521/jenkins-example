@@ -1,5 +1,5 @@
 pipeline {
-	agent windows-agent
+	agent any
 	stages {
 		stage('---clean---'){
 			steps {
