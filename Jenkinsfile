@@ -1,5 +1,5 @@
 pipeline {
-	agent ec2-node
+	agent windows-agent
 	stages {
 		stage('---clean---'){
 			steps {
